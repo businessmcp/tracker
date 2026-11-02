@@ -1,0 +1,38 @@
+{
+  "name": "@mcphosting/next",
+  "version": "0.1.0",
+  "description": "The BusinessMCP tracker for Next.js: analytics, attribution, session replay and heatmaps in one component.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "license": "MIT",
+  "peerDependencies": {
+    "next": ">=13.4",
+    "react": ">=18"
+  },
+  "homepage": "https://businessmcp.com/docs/install-tracking-script",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/businessmcp/tracker.git",
+    "directory": "packages/next"
+  },
+  "keywords": [
+    "nextjs",
+    "analytics",
+    "attribution",
+    "session-replay",
+    "heatmaps"
+  ]
+}

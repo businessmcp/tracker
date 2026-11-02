@@ -1,0 +1,36 @@
+{
+  "name": "@mcphosting/tracker",
+  "version": "0.1.0",
+  "description": "Load and call the BusinessMCP tracker (analytics, attribution, session replay, heatmaps) from code. Free to start.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "license": "MIT",
+  "homepage": "https://businessmcp.com/docs/install-tracking-script",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/businessmcp/tracker.git",
+    "directory": "packages/tracker"
+  },
+  "keywords": [
+    "analytics",
+    "attribution",
+    "session-replay",
+    "heatmaps",
+    "gdpr",
+    "cookieless",
+    "web-analytics"
+  ]
+}
